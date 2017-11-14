@@ -8,14 +8,6 @@ spring:
                               # Trailing / mandatory
                              # Template location for this application only
 
-security:
-  user:
-    name: root
-    password: password
-  oauth2:
-    resource:
-#      loadBalanced: true
-      userInfoUri: http://localhost:9999/user
 
 
 # Map the error path to error template (for Thymeleaf)
@@ -31,7 +23,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1112/eureka/
+      defaultZone: http://10.132.0.2:1112/eureka/
       registerWithEureka: true
       fetchRegistry: true
   instance:
