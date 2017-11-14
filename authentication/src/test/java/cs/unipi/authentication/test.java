@@ -14,7 +14,7 @@ public class test {
 
     private final Logger logger = LoggerFactory.getLogger(test.class);
 
-    private String url = "localhost:9000";
+    private String url = "35.205.124.218:9000";
 
     @Test
     public void register()  {

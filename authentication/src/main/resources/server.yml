@@ -8,6 +8,14 @@ spring:
                               # Trailing / mandatory
                              # Template location for this application only
 
+security:
+  user:
+    name: root
+    password: password
+  oauth2:
+    resource:
+#      loadBalanced: true
+      userInfoUri: http://localhost:9999/user
 
 
 # Map the error path to error template (for Thymeleaf)
