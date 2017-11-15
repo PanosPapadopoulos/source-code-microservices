@@ -12,7 +12,7 @@ error:
   path: /error
 # HTTP Server
 server:
-  port: 9001   # HTTP (Tomcat) port
+  port: 9002   # HTTP (Tomcat) port
 
 # Discovery Server Access
 #  1. DEV ONLY: Reduce the lease renewal interval to speed up registration
