@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-@CrossOrigin(origins = "http://localhost", maxAge = 3600)
+@CrossOrigin(origins = "http://10.132.0.2", maxAge = 3600)
 @RestController
 @RequestMapping("/user")
 public class TokenController {
