@@ -12,5 +12,9 @@ public class DiscoveryServerApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
+//	Project newPr = new Project("","","",1,"","",1,"");
+//        projects.add(newPr);
+//
+//	Project newPr1 = new Project("","","",1,"","",1,"");
+//        projects.add(newPr1);
 }
