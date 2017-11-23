@@ -33,6 +33,23 @@ public class test {
         logger.info("Return Message:" +message.toString());
     }
 
+    @Test
+    public void registerPr()  {
+
+        RestTemplate restTemplate = new RestTemplate();
+        User user = new User();
+        user.setFirstName("Panagiotis");
+        user.setSurName("Papadopoulos");
+        user.setEmail("pa@gmail.com");
+        user.setPassword("1234");
+        user.setRole("Test");
+        user.setActive(true);
+
+        String message = restTemplate.postForObject(String.format("http://%s/secure/authentication/register", url), user, String.class);
+
+        logger.info("Return Message:" +message.toString());
+    }
+
 //    @Test
 //    public void authenticate() {
 //

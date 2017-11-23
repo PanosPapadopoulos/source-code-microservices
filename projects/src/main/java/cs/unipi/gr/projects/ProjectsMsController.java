@@ -31,7 +31,7 @@ public class ProjectsMsController {
     }
 
     @LoadBalanced
-    @RequestMapping(value = "/secure/api/v1_0/projects/create",method = RequestMethod.GET)
+    @RequestMapping(value = "/secure/api/v1_0/projects/create",method = RequestMethod.POST)
     public String createProject(@RequestBody() Project project )  {
 
         Map<String, Object> params = new HashMap<String, Object>();

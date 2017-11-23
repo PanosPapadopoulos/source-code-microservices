@@ -21,7 +21,7 @@ public class HibernateUtil {
     private static SessionFactory buildSessionFactory() {
         try {
             // Create the SessionFactory from hibernate.cfg.xml
-            String hibernatePropsFilePath = "/opt/sourcecode/config/authentication/hibernate.cfg.xml";
+            String hibernatePropsFilePath = "/opt/sourcecode/config/projects/hibernate.cfg.xml";
             File hibernatePropsFile = new File(hibernatePropsFilePath);
 
             Configuration configuration = new Configuration();
