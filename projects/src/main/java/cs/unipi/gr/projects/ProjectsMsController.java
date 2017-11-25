@@ -3,10 +3,7 @@ package cs.unipi.gr.projects;
 import cs.unipi.gr.projects.exceptions.ProjectNotFoundException;
 import cs.unipi.gr.projects.models.Project;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,6 +25,15 @@ public class ProjectsMsController {
             throw new ProjectNotFoundException();
         }
         return projects;
+    }
+    @LoadBalanced
+    @RequestMapping(value = "/secure/api/v1_0/projects/{id}",method = RequestMethod.GET)
+    public Project getProject(@PathVariable("id") String id)  {
+        Project project = ProjectsApplication.projectsDao.getByID(id);
+        if (null == project) {
+            throw new ProjectNotFoundException();
+        }
+        return project;
     }
 
     @LoadBalanced
