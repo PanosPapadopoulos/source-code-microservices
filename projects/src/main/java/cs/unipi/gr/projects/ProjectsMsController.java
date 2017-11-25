@@ -4,8 +4,6 @@ import cs.unipi.gr.projects.exceptions.ProjectNotFoundException;
 import cs.unipi.gr.projects.models.Project;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
