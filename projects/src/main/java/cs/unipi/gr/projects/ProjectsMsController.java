@@ -26,7 +26,7 @@ public class ProjectsMsController {
     }
     @LoadBalanced
     @RequestMapping(value = "/secure/api/v1_0/projects/{id}",method = RequestMethod.GET)
-    public Project getProject(@PathVariable("id") String id)  {
+    public Project getProject(@PathVariable("id") int id)  {
         Project project = ProjectsApplication.projectsDao.getByID(id);
         if (null == project) {
             throw new ProjectNotFoundException();
