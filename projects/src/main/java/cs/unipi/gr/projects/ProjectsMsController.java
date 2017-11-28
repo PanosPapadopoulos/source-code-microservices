@@ -35,7 +35,7 @@ public class ProjectsMsController {
     }
 
     @LoadBalanced
-    @RequestMapping(value = "/secure/api/v1_0/projects/{param}",method = RequestMethod.GET)
+    @RequestMapping(value = "/secure/api/v1_0/projects/search/{param}",method = RequestMethod.GET)
     public List<Project> getProject(@PathVariable("param") String param)  {
         Map<String,Object> params = new HashMap<String,Object>();
         params.put("name",param);
