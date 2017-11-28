@@ -40,7 +40,7 @@ public class ProjectsMsController {
         Map<String,Object> params = new HashMap<String,Object>();
         params.put("name",param);
         params.put("description",param);
-        params.put("Type",param);
+        params.put("type",param);
 
         List<Project> projects = ProjectsApplication.projectsDao.search(params);
         if (null == projects && projects.size() <= 0) {
