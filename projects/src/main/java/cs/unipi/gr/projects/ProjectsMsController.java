@@ -39,15 +39,17 @@ public class ProjectsMsController {
     @LoadBalanced
     @RequestMapping(value = "/secure/api/v1_0/projects/search/{param}",method = RequestMethod.GET)
     public List<Project> getProject(@PathVariable("param") String param)  {
-        Map<String,Object> params = new HashMap<String,Object>();
-        params.put("name",param);
-        List<Project> projects1 = ProjectsApplication.projectsDao.search(params);
+        Map<String,Object> params1 = new HashMap<String,Object>();
+        params1.put("name",param);
+        List<Project> projects1 = ProjectsApplication.projectsDao.search(params1);
 
-        params.put("description",param);
-        List<Project> projects2 = ProjectsApplication.projectsDao.search(params);
+        Map<String,Object> params2 = new HashMap<String,Object>();
+        params2.put("description",param);
+        List<Project> projects2 = ProjectsApplication.projectsDao.search(params2);
 
-        params.put("type",param);
-        List<Project> projects3 = ProjectsApplication.projectsDao.search(params);
+        Map<String,Object> params3 = new HashMap<String,Object>();
+        params3.put("type",param);
+        List<Project> projects3 = ProjectsApplication.projectsDao.search(params3);
 
         List<Project> projects=new ArrayList<>();
         projects.addAll(projects1);
