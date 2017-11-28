@@ -42,12 +42,12 @@
       <file leaf-file-name="ProjectsMsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="554">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1450#1465#0" expanded="true" />
-                <element signature="e#2035#2051#0" expanded="true" />
+                <element signature="e#1479#1494#0" expanded="true" />
+                <element signature="e#2389#2405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -847,7 +847,7 @@
       <workItem from="1510659584712" duration="14500000" />
       <workItem from="1510834899754" duration="6630000" />
       <workItem from="1511276115348" duration="13728000" />
-      <workItem from="1511848477477" duration="3294000" />
+      <workItem from="1511848477477" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="changed config">
       <created>1510663501511</created>
@@ -1038,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511851577359</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="changed config">
+      <created>1511851802127</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1511851802127</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1074,7 +1081,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70765000" />
+    <option name="totallyTimeSpent" value="71296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1515,12 +1522,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="554">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1450#1465#0" expanded="true" />
-            <element signature="e#2035#2051#0" expanded="true" />
+            <element signature="e#1479#1494#0" expanded="true" />
+            <element signature="e#2389#2405#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,6 +4,8 @@ import cs.unipi.gr.projects.exceptions.ProjectNotFoundException;
 import cs.unipi.gr.projects.models.Project;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -39,10 +41,18 @@ public class ProjectsMsController {
     public List<Project> getProject(@PathVariable("param") String param)  {
         Map<String,Object> params = new HashMap<String,Object>();
         params.put("name",param);
-        params.put("description",param);
-        params.put("type",param);
+        List<Project> projects1 = ProjectsApplication.projectsDao.search(params);
 
-        List<Project> projects = ProjectsApplication.projectsDao.search(params);
+        params.put("description",param);
+        List<Project> projects2 = ProjectsApplication.projectsDao.search(params);
+
+        params.put("type",param);
+        List<Project> projects3 = ProjectsApplication.projectsDao.search(params);
+
+        List<Project> projects=new ArrayList<>();
+        projects.addAll(projects1);
+        projects.addAll(projects2);
+        projects.addAll(projects3);
         if (null == projects && projects.size() <= 0) {
             throw new ProjectNotFoundException();
         }
