@@ -3,6 +3,7 @@ package cs.unipi.authentication.generic;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
+
 /**
  * @author Panagiotis Papadopoulos P10095
  * @University University of Pireus Cs Department
@@ -15,6 +16,8 @@ public interface GenericDAO<Entity, ID extends Serializable> {
 
     List search(Map<String, Object> parameterMap);
 
+//    List searchRandomProjects(String param);
+
     ID insert(Entity entity);
 
     void update(Entity entity);
@@ -22,5 +25,6 @@ public interface GenericDAO<Entity, ID extends Serializable> {
     void delete(Entity entity);
 
     void deleteById(ID id);
-
 }
+
+

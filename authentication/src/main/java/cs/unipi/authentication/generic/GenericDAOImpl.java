@@ -121,6 +121,49 @@ public abstract class GenericDAOImpl<Entity, ID extends Serializable> implements
         return list;
 
     }
+
+//    public List searchRandomProjects(String param,Object obj) {
+//
+//        List list;
+//
+//        Transaction txn = null;
+//        try {
+//
+//            txn = getCurrentSession().beginTransaction();
+//
+//            list = getCurrentSession().createQuery("from " + this.clazz.getName()).list();
+//
+//            Criteria criteria = getCurrentSession().createCriteria(clazz);
+//                //criteria.add(Restrictions.ilike(field, parameterMap.get(field)));
+//            for(obj)
+//            if (parameterMap.get(field) instanceof Boolean) {
+//                criteria.add(Restrictions.eq(field, parameterMap.get(field)));
+//            }
+//            else if (parameterMap.get(field) instanceof Integer) {
+//                criteria.add(Restrictions.eq(field, parameterMap.get(field)));
+//            } else {
+//                criteria.add(Restrictions.ilike(field, "%" +parameterMap.get(field) +"%"));
+//            }
+//
+//
+////            criteria.addOrder(Order.desc("createDate"));
+//
+//            list = criteria.list();
+//
+//            txn.commit();
+//        } catch (RuntimeException e) {
+//            if ( txn != null && txn.isActive() ) txn.rollback();
+//            throw e;
+//        } finally {
+//            if (getCurrentSession() != null) {
+//                getCurrentSession().close();
+//            }
+//        }
+//
+//        return list;
+//
+//    }
+
     public List authenticate(String email,String password){
 
         List list;

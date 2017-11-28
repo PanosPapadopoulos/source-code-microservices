@@ -35,6 +35,21 @@ public class ProjectsMsController {
     }
 
     @LoadBalanced
+    @RequestMapping(value = "/secure/api/v1_0/projects/{param}",method = RequestMethod.GET)
+    public List<Project> getProject(@PathVariable("param") String param)  {
+        Map<String,Object> params = new HashMap<String,Object>();
+        params.put("name",param);
+        params.put("description",param);
+        params.put("Type",param);
+
+        List<Project> projects = ProjectsApplication.projectsDao.search(params);
+        if (null == projects && projects.size() <= 0) {
+            throw new ProjectNotFoundException();
+        }
+        return projects;
+    }
+
+    @LoadBalanced
     @RequestMapping(value = "/secure/api/v1_0/projects/create",method = RequestMethod.POST)
     public String createProject(@RequestBody() Project project )  {
 
