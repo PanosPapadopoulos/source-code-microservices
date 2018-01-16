@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0bf5c06-3a84-494e-b9c5-531f4fa7214f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile" afterPath="$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" afterPath="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java" afterPath="$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/authentication/target/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="server.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -45,14 +44,26 @@
       <file leaf-file-name="filestream-config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FilesController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -127,7 +138,6 @@
         <option value="$PROJECT_DIR$/filestream/src/main/resources/filestream-config.yml" />
         <option value="$PROJECT_DIR$/filestream-ms/pom.xml" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilestreamApplication.java" />
-        <option value="$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile" />
         <option value="$PROJECT_DIR$/projects/updateDocker.bat" />
         <option value="$PROJECT_DIR$/filestream-ms/updateDocker.bat" />
@@ -138,6 +148,7 @@
         <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java" />
       </list>
     </option>
   </component>
@@ -288,6 +299,49 @@
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
               <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeepergateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -570,14 +624,7 @@
       <workItem from="1515446712990" duration="743000" />
       <workItem from="1515516132928" duration="1769000" />
       <workItem from="1515518109888" duration="1488000" />
-      <workItem from="1516025494370" duration="18186000" />
-    </task>
-    <task id="LOCAL-00001" summary="changed config">
-      <created>1510663501511</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1510663501511</updated>
+      <workItem from="1516025494370" duration="18284000" />
     </task>
     <task id="LOCAL-00002" summary="changed config">
       <created>1510663587512</created>
@@ -915,7 +962,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516123861376</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="changed config">
+      <created>1516125139240</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1516125139242</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -951,7 +1005,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111314000" />
+    <option name="totallyTimeSpent" value="111412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1273,16 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1395,27 +1439,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
+    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        <state relative-caret-position="228">
+          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/java/cs/unipi/gr/filestream/FilesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

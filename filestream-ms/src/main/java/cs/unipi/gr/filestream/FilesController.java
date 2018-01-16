@@ -17,7 +17,7 @@ import java.io.IOException;
 public class FilesController {
 
     @LoadBalanced
-    @RequestMapping(value = "/upload", method = RequestMethod.POST)
+    @RequestMapping(value = "/secure/api/v1_0/filestream/upload", method = RequestMethod.POST)
     public String handleFileUpload(@RequestParam("file") MultipartFile multipartFile) throws IOException {
         File convFile = new File("/opt/"+multipartFile.getOriginalFilename());
         multipartFile.transferTo(convFile);
