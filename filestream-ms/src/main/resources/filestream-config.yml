@@ -24,7 +24,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone:  http://35.205.124.218:1112/eureka/
+      defaultZone:  http://35.205.124.218:1112
       registerWithEureka: true
       fetchRegistry: true
   instance:
