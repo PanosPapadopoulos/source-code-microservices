@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0bf5c06-3a84-494e-b9c5-531f4fa7214f" name="Default" comment="changed config">
+    <list default="true" id="b0bf5c06-3a84-494e-b9c5-531f4fa7214f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile" afterPath="$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile" afterPath="$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/updateDocker.bat" afterPath="$PROJECT_DIR$/filestream-ms/updateDocker.bat" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/authentication/target/" />
@@ -55,7 +54,7 @@
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
@@ -261,7 +260,38 @@
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
               <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -541,7 +571,7 @@
       <workItem from="1515446712990" duration="743000" />
       <workItem from="1515516132928" duration="1769000" />
       <workItem from="1515518109888" duration="1488000" />
-      <workItem from="1516025494370" duration="10870000" />
+      <workItem from="1516025494370" duration="10952000" />
     </task>
     <task id="LOCAL-00001" summary="changed config">
       <created>1510663501511</created>
@@ -788,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516101803317</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="changed config">
+      <created>1516102105992</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1516102105992</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -824,11 +861,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103998000" />
+    <option name="totallyTimeSpent" value="104080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -845,7 +881,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1263,7 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/Docker/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
