@@ -44,7 +44,6 @@ public class test {
         user.setPassword("1234");
         user.setRole("Test");
         user.setActive(true);
-
         String message = restTemplate.postForObject(String.format("http://%s/secure/authentication/register", url), user, String.class);
 
         logger.info("Return Message:" +message.toString());

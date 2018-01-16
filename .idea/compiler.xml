@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="authentication" />
         <module name="discovery-server" />
+        <module name="filestream" />
+        <module name="filestream-ms" />
         <module name="projects" />
         <module name="zuulkeeper-gateway" />
       </profile>
@@ -15,6 +17,8 @@
     <bytecodeTargetLevel>
       <module name="authentication" target="1.8" />
       <module name="discovery-server" target="1.8" />
+      <module name="filestream" target="1.8" />
+      <module name="filestream-ms" target="1.8" />
       <module name="projects" target="1.8" />
       <module name="zuulkeeper-gateway" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,18 +1,22 @@
 spring:
   application:
-     name: projects-ms # Service registers under this name
+     name: filestream-ms # Service registers under this name
   freemarker:
     enabled: false           # Ignore Eureka dashboard FreeMarker templates
   thymeleaf:
     cache: false             # Allow Thymeleaf templates to be reloaded at runtime
                               # Trailing / mandatory
                              # Template location for this application only
+  http:
+     multipart:
+         max-file-size: 300MB
+         max-request-size: 300MB
 # Map the error path to error template (for Thymeleaf)
 error:
   path: /error
 # HTTP Server
 server:
-  port: 9003   # HTTP (Tomcat) port
+  port: 9004   # HTTP (Tomcat) port
 
 # Discovery Server Access
 #  1. DEV ONLY: Reduce the lease renewal interval to speed up registration
@@ -20,11 +24,11 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone:  http://http://35.205.124.218:1112/eureka/
+      defaultZone:  http://localhost:1112/eureka/
       registerWithEureka: true
       fetchRegistry: true
   instance:
-    appname: projects-ms
+    appname: filestream-ms
     health-check-url: /health
     prefer-ip-address: true
     leaseRenewalIntervalInSeconds: 1   # DO NOT DO THIS IN PRODUCTION
@@ -37,3 +41,4 @@ eureka:
 #     NOTE-2: Syntax ${x:${y}} = use $x if set, otherwise use $y
 #   metadataMap:
 #     instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+
