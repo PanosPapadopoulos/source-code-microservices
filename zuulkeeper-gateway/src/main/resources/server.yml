@@ -58,9 +58,9 @@ zuul:
         path: /secure/api/v1_0/projects/**
         serviceId: projects-ms
         stripPrefix: false
-    projects-ms:
+    filestream-ms:
         path: /secure/api/v1_0/filestream/**
-        serviceId: projects-ms
+        serviceId: filestream-ms
         stripPrefix: false
 
 hystrix:
