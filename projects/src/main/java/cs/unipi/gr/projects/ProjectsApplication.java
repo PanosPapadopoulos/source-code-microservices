@@ -15,9 +15,10 @@ import java.io.Serializable;
 @EnableAutoConfiguration
 public class ProjectsApplication {
 	public static final GenericDAO<Project, Serializable> projectsDao = new GenericDAOImpl<Project, Serializable>(Project.class) {};
-
+	public static String k="sda";
 	public static void main(String[] args) {
 		System.setProperty("spring.config.name", "projects-config");
+		k="sdasda";
 		SpringApplication.run(ProjectsApplication.class, args);
 	}
 }

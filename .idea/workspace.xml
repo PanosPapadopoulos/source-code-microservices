@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0bf5c06-3a84-494e-b9c5-531f4fa7214f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" afterPath="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java" afterPath="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java" afterPath="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml" afterPath="$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/authentication/target/" />
@@ -21,83 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filestream-ms/pom.xml">
+      <file leaf-file-name="server.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-961">
-              <caret line="25" column="61" lean-forward="true" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authentication/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="156" column="0" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="156" selection-end-column="0" />
-              <folding>
-                <marker date="1510215325748" expanded="true" signature="1848:1860" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="138" column="20" lean-forward="false" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filestream-config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects-config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/src/main/resources/projects-config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateDocker.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/updateDocker.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateDocker.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filestream-ms/updateDocker.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/config/JwtFilter.java" />
         <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/ZuulkeeperGatewayApplication.java" />
         <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/models/User.java" />
         <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/UserController.java" />
@@ -145,7 +74,6 @@
         <option value="$PROJECT_DIR$/discovery-server/src/main/docker/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/models/Project.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/exceptions/UserNotFoundException.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java" />
         <option value="$PROJECT_DIR$/discovery-server/src/test/java/cs/unipi/gr/discoveryserver/DiscoveryServerApplicationTests.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/exceptions/ProjectNotFoundException.java" />
         <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/generic/GenericDAOImpl.java" />
@@ -157,7 +85,6 @@
         <option value="$PROJECT_DIR$/projects/src/main/docker/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/generic/GenericDAO.java" />
         <option value="$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/generic/GenericDAOImpl.java" />
-        <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java" />
         <option value="$PROJECT_DIR$/projects/src/main/resources/projects-config.yml" />
         <option value="$PROJECT_DIR$/authentication/src/test/java/cs/unipi/authentication/test.java" />
         <option value="$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/models/UserObj.java" />
@@ -167,7 +94,6 @@
         <option value="$PROJECT_DIR$/authentication/src/main/resources/server.yml" />
         <option value="$PROJECT_DIR$/authentication/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/authentication/updateDocker.bat" />
-        <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml" />
         <option value="$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/services/UsersController.java" />
         <option value="$PROJECT_DIR$/filestream/src/main/java/cs/unipi/gr/filestream/FilestreamApplication.java" />
         <option value="$PROJECT_DIR$/filestream/src/main/resources/filestream-config.yml" />
@@ -179,6 +105,10 @@
         <option value="$PROJECT_DIR$/filestream-ms/updateDocker.bat" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java" />
+        <option value="$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java" />
+        <option value="$PROJECT_DIR$/projects/src/test/java/cs/unipi/gr/projects/test1.java" />
+        <option value="$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml" />
       </list>
     </option>
   </component>
@@ -280,71 +210,17 @@
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
               <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
               <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="filestream-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
@@ -354,20 +230,25 @@
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SourceCodeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="SourceCodeApi" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="zuulkeeper-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -421,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FilestreamApplication (1)">
+  <component name="RunManager" selected="JUnit.test1.newProject">
     <configuration name="All in discovery-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="discovery-server" />
@@ -574,7 +455,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test1.newProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cs.unipi.gr.projects.*" />
@@ -585,9 +466,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cs.unipi.gr.projects" />
-      <option name="MAIN_CLASS_NAME" value="cs.unipi.gr.projects.test" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="cs.unipi.gr.projects.test1" />
+      <option name="METHOD_NAME" value="newProject" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -603,19 +484,19 @@
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.AuthenticationApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZuulkeeperGatewayApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ProjectsApplication" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.All in discovery-server" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All in discovery-server" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication (1)" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.test1.newProject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in discovery-server" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ProjectsApplication" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.test (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.test1.newProject" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.FilestreamApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.DiscoveryServerApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in discovery-server" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.ProjectsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -650,7 +531,7 @@
       <workItem from="1515446712990" duration="743000" />
       <workItem from="1515516132928" duration="1769000" />
       <workItem from="1515518109888" duration="1488000" />
-      <workItem from="1516025494370" duration="12459000" />
+      <workItem from="1516025494370" duration="16601000" />
     </task>
     <task id="LOCAL-00001" summary="changed config">
       <created>1510663501511</created>
@@ -946,15 +827,22 @@
       <option name="project" value="LOCAL" />
       <updated>1516104645916</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="changed config">
+      <created>1516104841447</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1516104841447</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="All_in_discovery-server - 2018.01.15 at 23h 34m 30s.xml">
       <configuration name="All in discovery-server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_newProject - 2017.11.21 at 18h 21m 19s.xml">
-      <configuration name="test.newProject" configurationId="JUnit" />
+    <history-entry file="test1_newProject - 2018.01.16 at 15h 03m 40s.xml">
+      <configuration name="test1.newProject" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test_newProject - 2017.11.21 at 18h 22m 18s.xml">
       <configuration name="test.newProject" configurationId="JUnit" />
@@ -982,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105587000" />
+    <option name="totallyTimeSpent" value="109729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -990,15 +878,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997879" sideWeight="0.28854167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223754" sideWeight="0.62395835" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223754" sideWeight="0.62135416" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1011,7 +899,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997879" sideWeight="0.7114583" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.7114583" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1051,20 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/exceptions/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/config/JwtFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/java/cs/unipi/zuulkeepergateway/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1174,14 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/test/java/cs/unipi/gr/projects/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/src/main/docker/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1239,14 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="64" lean-forward="false" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authentication/src/main/java/cs/unipi/authentication/services/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1287,34 +1145,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#1480#1495#0" expanded="true" />
-            <element signature="e#1666#1681#0" expanded="true" />
-            <element signature="e#1859#1874#0" expanded="true" />
-            <element signature="e#2530#2546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/exceptions/ProjectNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1332,7 +1169,7 @@
         <state relative-caret-position="76">
           <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1439,8 +1276,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filestream-ms/src/main/resources/filestream-config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/test/java/cs/unipi/gr/projects/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsMsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1519#1534#0" expanded="true" />
+            <element signature="e#1705#1720#0" expanded="true" />
+            <element signature="e#1898#1913#0" expanded="true" />
+            <element signature="e#2569#2585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/main/java/cs/unipi/gr/projects/ProjectsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/src/test/java/cs/unipi/gr/projects/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulkeeper-gateway/src/main/resources/server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>

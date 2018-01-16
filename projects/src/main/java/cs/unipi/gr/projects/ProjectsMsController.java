@@ -16,11 +16,11 @@ import java.util.Map;
  */
 @RestController
 public class ProjectsMsController {
-
     @LoadBalanced
     @RequestMapping(value = "/secure/api/v1_0/projects",method = RequestMethod.GET)
     public List<Project> getProjects()  {
         List<Project> projects = ProjectsApplication.projectsDao.getList();
+        String k=ProjectsApplication.k;
         if (null == projects && projects.size() <= 0) {
             throw new ProjectNotFoundException();
         }
