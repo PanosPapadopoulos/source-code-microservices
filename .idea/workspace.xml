@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0bf5c06-3a84-494e-b9c5-531f4fa7214f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulkeeper-gateway/updateDocker.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -546,7 +547,7 @@
       <workItem from="1515446712990" duration="743000" />
       <workItem from="1515516132928" duration="1769000" />
       <workItem from="1515518109888" duration="1488000" />
-      <workItem from="1516025494370" duration="16671000" />
+      <workItem from="1516025494370" duration="16718000" />
     </task>
     <task id="LOCAL-00001" summary="changed config">
       <created>1510663501511</created>
@@ -856,7 +857,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516123073722</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="changed config">
+      <created>1516123140537</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1516123140537</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -892,7 +900,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109799000" />
+    <option name="totallyTimeSpent" value="109846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
