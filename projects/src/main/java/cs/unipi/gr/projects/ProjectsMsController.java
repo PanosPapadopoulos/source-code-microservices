@@ -80,7 +80,7 @@ public class ProjectsMsController {
         }
     }
 
-    @RequestMapping(value = "/secure/api/v1_0/projects/update",method = RequestMethod.PUT)
+    @RequestMapping(value = "/secure/api/v1_0/projects/update",method = RequestMethod.POST)
     public void update(@RequestBody() Project project )  {
         //  logger.info("Updating User",user.toString());
         ProjectsApplication.projectsDao.update(project);
