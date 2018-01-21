@@ -32,7 +32,6 @@ public class HibernateUtil {
             Metadata metadata = new MetadataSources(standardRegistry).getMetadataBuilder().build();
             return metadata.getSessionFactoryBuilder().build();
 
-
         }
         catch (Throwable ex) {
             // Make sure you log the exceptions, as it might be swallowed
