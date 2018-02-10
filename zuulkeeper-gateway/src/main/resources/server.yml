@@ -14,7 +14,7 @@ error:
 
 # HTTP Server
 server:
-  port: 443   # HTTPS (Tomcat) port
+  port: 1112   # HTTPS (Tomcat) port
 
 ##Security
 #security.user.name: admin
