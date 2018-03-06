@@ -5,6 +5,11 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * @author Panagiotis Papadopoulos P10095
  * @University University of Pireus Cs Department
@@ -48,6 +53,15 @@ public class test {
 
         logger.info("Return Message:" +message.toString());
     }
+
+    @Test
+    public void registerPr1()  {
+
+        String k="sda";
+        Integer a=1;
+
+    }
+
 
 //    @Test
 //    public void authenticate() {
