@@ -31,7 +31,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1112/eureka/
+      defaultZone: http://192.168.1.133:1112/eureka/
       registerWithEureka: true
       fetchRegistry: true
   instance:
