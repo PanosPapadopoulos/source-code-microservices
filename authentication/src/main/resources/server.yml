@@ -28,10 +28,11 @@ server:
 # Discovery Server Access
 #  1. DEV ONLY: Reduce the lease renewal interval to speed up registration
 #  2. Define URL of registration server (defaultZone)
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: 192.168.1.133:1112/eureka/
+      defaultZone: http://localhost:1112/eureka/
       registerWithEureka: true
       fetchRegistry: true
   instance:
